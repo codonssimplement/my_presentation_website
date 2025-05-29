@@ -5,7 +5,6 @@ import HeroSection from '@/components/HeroSection';
 import DevelopmentSection from '@/components/DevelopmentSection';
 import ManagementSection from '@/components/ManagementSection';
 import MicroactSection from '@/components/MicroactSection';
-import CVSection from '@/components/CVSection';
 import Footer from '@/components/Footer';
 import ContactSection from '@/components/ContactSection';
 
@@ -19,7 +18,7 @@ const Index = () => {
       <HeroSection />
       <DevelopmentSection />
       <ManagementSection /> 
-      <CVSection />
+    
       <MicroactSection />
       <PartnersSection />
       <ContactSection />
