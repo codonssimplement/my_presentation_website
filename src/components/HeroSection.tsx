@@ -3,6 +3,24 @@ import { Button } from '@/components/ui/button';
 import { Download, ExternalLink } from 'lucide-react';
 
 const HeroSection = () => {
+  const handleDownloadCV = () => {
+    console.log('Tentative de téléchargement du CV...');
+    const link = document.createElement('a');
+    link.href = '/ElimaneBaCv.pdf';
+    link.download = 'ElimaneBaCv.pdf';
+    console.log('Lien créé :', link.href);
+    
+    // Ajouter le lien au DOM
+    document.body.appendChild(link);
+    
+    // Déclencher le téléchargement
+    link.click();
+    
+    // Nettoyer
+    document.body.removeChild(link);
+    console.log('Téléchargement déclenché');
+  };
+
   return (
     <section id="home" className="min-h-screen mt-5 flex items-center justify-center bg-gradient-to-br from-slate-50 to-blue-50">
       <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
@@ -35,6 +53,7 @@ const HeroSection = () => {
               <Button 
                 size="lg" 
                 className="px-8 py-3 text-white bg-gradient-to-r from-[#6D6BCF] via-[#9E9BF2] to-[#6D6BCF] animate-gradient hover:opacity-90 transition-opacity"
+                onClick={handleDownloadCV}
               >
                 <Download className="mr-2" size={20} />
                 CV COMPLET

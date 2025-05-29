@@ -120,7 +120,7 @@ const MicroactSection = () => {
           <h3 className="text-2xl font-semibold text-gray-900 mb-6">Découvrir le Projet</h3>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="text-white bg-gradient-to-r from-[#6D6BCF] via-[#9E9BF2] to-[#6D6BCF] animate-gradient hover:opacity-90 transition-opacity px-8 py-3" asChild>
-              <a href="https://microact.vercel.app" target="_blank" rel="noopener noreferrer">
+              <a href="https://micro-act.com" target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="mr-2" size={20} />
                 Visiter la Plateforme
               </a>
