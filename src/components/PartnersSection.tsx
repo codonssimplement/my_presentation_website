@@ -35,7 +35,6 @@ const partners = [
   { id: 30, name: 'Design 30', logo: '/partner/design30.png' },
   { id: 31, name: 'Design 31', logo: '/partner/design31.png' },
   { id: 32, name: 'Design 32', logo: '/partner/design32.png' },
-  { id: 33, name: 'Design 33', logo: '/partner/design33.gif' },
   { id: 34, name: 'Design 34', logo: '/partner/design34.jpg' },
   { id: 35, name: 'Design 35', logo: '/partner/design35.png' },
   { id: 36, name: 'Design 36', logo: '/partner/design36.jpeg' },
